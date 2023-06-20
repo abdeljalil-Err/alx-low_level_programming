@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		_putchar(x[i]);
+		_putchar(y[i]);
 	}
 
 		_putchar('\n');
