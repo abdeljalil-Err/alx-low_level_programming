@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lowercase character.
- * c variable  type int is the character check.
+ * @c : variable  type int is the character check.
  * Return: 1 islower 0 isn't islower.
  */
 int _islower(int c)
