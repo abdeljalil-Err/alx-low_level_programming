@@ -3,7 +3,7 @@
 /**
  *  main - check the code
  *
- * print_alphabet function to dispalay alphabetics .
+ * print_alphabet - dispalay alphabet, in lowercase.
  * Return: Always 0.
  */
 
