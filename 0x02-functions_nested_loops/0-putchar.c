@@ -1,4 +1,12 @@
-#include <main.h>
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+
+
 int main(void)
 {
 	char y[] = "_putchar";
@@ -6,10 +14,11 @@ int main(void)
 
 	for (j = 0; j <= 7; j++)
 	{
-		_putchar(y[j]);
+		_putchar(x[i]);
 	}
-		
+
 		_putchar('\n');
 
-	return 0;
+	return (0);
 }
+
