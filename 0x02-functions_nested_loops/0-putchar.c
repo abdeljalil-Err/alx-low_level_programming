@@ -3,16 +3,14 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 Success
  */
-
-
 int main(void)
 {
 	char y[] = "_putchar";
-	int j;
+	int i;
 
-	for (j = 0; j <= 7; j++)
+	for (i = 0; i <= 7; i++)
 	{
 		_putchar(x[i]);
 	}
