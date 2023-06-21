@@ -15,7 +15,7 @@ int a, b, c;
 		_putchar(' ');
 	for (c = 1; c <= 9; c++)
 	{
-		b = (r * c);
+		b = (a * c);
 	if ((b / 10) > 0)
 	{
 		_putchar((b / 10) + '0');
