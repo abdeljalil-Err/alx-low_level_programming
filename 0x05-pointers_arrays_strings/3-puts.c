@@ -9,7 +9,6 @@
 void _puts(char *str)
 {
 	int k;
-	
 	k = 0;
 
 	while (str[k])
