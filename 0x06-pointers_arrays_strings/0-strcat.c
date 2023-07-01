@@ -1,12 +1,32 @@
 #include "main.h"
 
-
-
 /**
- * reset_to_98 - updates the value it points to to 98
- * @n: - Pointer to an integer type.
+ * *_strcat - function commute srtings
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
+ * Return: return value of dest
  */
-void reset_to_98(int *a)
+
+char *_strcat(char *dest, char *src)
 {
-	*a = 98;
+	int a;
+	int b;
+
+	a = 0;
+	b = 0;
+
+	while (dest[a] != '\0')
+	{
+		a++;
+	}
+
+	while (src[b] != '\0')
+	{
+		dest[a] = src[b];
+		b++;
+		a++;
+	}
+
+	dest[a] = '\0';
+	return (dest);
 }
