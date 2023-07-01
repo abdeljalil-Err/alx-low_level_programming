@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 		if (*(src + counter2) == '\0')
 			break;
 		counter++;
-		counter2++
+		counter2++;
 	}
 	return (dest);
 }
